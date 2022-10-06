@@ -1,0 +1,462 @@
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@900&family=Montserrat:wght@900&family=Poppins:wght@200&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    background-color: #FFFFFF;
+}
+
+nav {
+
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: 'poppins';
+    text-align: center;
+}
+
+nav > img {
+     
+    height: 45px;
+
+}
+
+.nav-items {
+    display: flex;
+    flex: 1.5;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    color: #000000;
+    margin-left: 120px;
+  }
+
+  nav img:last-child {
+
+    /* height: 200px; */
+    position: inherit;
+  }
+
+.nav-item {
+    
+    /* margin-right: px; */
+    color: #232323;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    color: #FE5E35;
+    text-decoration: underline;
+    font-weight: 1000;
+}
+
+.left-section {
+
+    margin-left: 20px;
+    margin-top: 70px;
+}
+
+.left-section h3 {
+ 
+     font-family: 'poppins';
+     font-size: 50px;
+
+}
+
+.left-section h3 > img {
+
+    height: 50px;
+    /* margin-top: 10px; */
+}
+
+.left-section h1 {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    
+
+    font-size: 75px ;
+}
+
+.sub-headlines {
+    font-family: 'poppins';
+    font-size: 30px;
+    line-height: 50px;
+    margin-left: 120px;
+    margin-top: 40px;
+    color: #1F1F1F;
+
+}
+
+ .sub-headline img {
+
+    background-color: #FE5E35;
+    /* min-height: max-content; */
+    border-radius: 100px;
+    height: 30px;
+    margin-right: 10px;
+    padding: 8px;
+    margin-top: 10px;
+    margin: 12px;
+    vertical-align: middle;
+    /* line-height: 50px; */
+}
+
+.text   {
+
+    font-family: 'poppins';
+    font-size: 15px;
+    word-wrap: break-word;
+    inline-size: 800px;
+    font-weight: lighter;
+    margin-top: 50px;
+}
+
+.action-btns {
+
+    display: flex;
+    gap: 35px;
+    
+    /* justify-content: center; */
+}
+
+.action-btn {
+
+    background-color: #FE5E35 ;
+    border-radius: 30px;
+    font-size: 20px;
+    color: white;
+    padding: 20px 50px;
+    border-style: none;
+    margin-top: 50px;
+    /* margin-left: 50px; */
+}
+
+.action-btn:hover {
+
+    background-color: black;
+    color: white;
+}
+
+.right-section {
+
+position: absolute;
+right: 5rem;
+top: 5rem;
+    
+}
+
+.headphone-div .discount {
+position: absolute;
+    /* height: 50px; */
+    top: 21rem;
+    height: 140px;
+    left: 4rem;
+    filter:drop-shadow(4px 4px 4px gray);
+
+}
+
+.headphones {
+/* position: absolute; */
+    height: 550px;
+    margin-left: 100px;
+}
+
+.discount-content {
+
+    position: absolute;
+    font-family: 'M PLUS Rounded 1c';
+    text-align: center;
+    top: 370px;
+    left: 90px;
+    color: white;
+    line-height: 28px;
+    /* font-size: 10px; */
+    
+}
+
+.discount-content h4 {
+
+    font-family: 'M PLUS Rounded 1c';
+    font-size: 12px;
+/* margin-top: 10px; */
+    
+}
+
+.discount-content h1 {
+    font-family: 'M PLUS Rounded 1c';
+    display: block;
+
+    font-size: 40px;
+    
+}
+
+.dots {
+   display: flex;
+   /* justify-content: space-around; */
+   margin-left: 260px;
+   
+}
+
+.yellow-dot {
+
+     
+     border: 5px solid #FBD104;
+        border-radius: 100px;
+        background-color: #FBD104;
+        height: 25px;
+        width: 25px;
+        margin-right: 50px;
+      }
+
+.tomato-dot {
+
+    border: 5px solid #FE5E35;
+        border-radius: 100px;
+        background-color: #FE5E35;
+        width: 25px;
+        height: 25px;
+        margin-right: 50px;
+}
+
+
+.black-dot {
+
+    border: 5px solid black;
+        border-radius: 100px;
+        background-color: black;
+        width: 25px;
+        height: 25px;
+}
+
+.right-section .action-btn {
+
+    margin-left: 259px;
+    font-family: 'poppins';
+    margin-top: 65px;
+
+}
+
+
+
+/* for mobile  */
+@media (max-width:600px) {
+
+    nav {
+        display: flex;
+        gap: 0;
+        justify-content: space-between;
+ 
+
+    }
+    
+    .nav-items {
+
+        gap: 1rem;
+        font-size: 12px;
+        margin-left: 40px;
+
+    }
+
+    .logo {
+        height: 25px;
+        /* margin-top: 5px; */
+    }
+
+    .buttons {
+
+        height: 25px;
+        
+    }
+
+    .right-section {
+        position: absolute;
+        display: flex; 
+       
+
+    }
+
+    .headphones {
+
+        height: 380px;
+        position: absolute;
+        left: -450px;
+        z-index: -1;
+
+
+    }
+
+    .headphone-div .discount {
+
+        height: 105px;
+        top: 220px;
+        left: -360px;
+    }
+
+
+    .discount-content {
+
+      
+        
+        top: 235px;
+        left: -340px;
+        color: white;
+    }
+
+
+    .discount-content h4 {
+
+        font-size: 10px;
+
+    }
+    .discount-content h1 {
+
+        font-size: 30px;
+    }
+
+    
+
+    .tomato-dot {
+        width: 13px;
+        height: 13px;
+        border-radius: 100px;
+        margin-left: -10px;
+        margin-right: 40px;
+    }
+
+    .black-dot {
+
+        width: 13px;
+        height: 13px;
+        border-radius: 100px;
+    }
+
+    .yellow-dot {
+        width: 13px;
+        height: 13px;
+        border-radius: 100px;
+    }
+
+    .dots {
+
+        position: absolute;
+        top: 380px;
+        left: -493px;
+        justify-content: flex-start;
+
+    }
+
+    .right-section .action-btn {
+
+       
+         position: absolute;
+        display: block;
+        border-radius: 30px;
+        font-size: 12px;
+        padding: 15px 50px;
+        /* text-align: none; */
+        top: 370px;
+        left: -500px;
+
+    }
+
+    .left-section {
+
+        display: flex;
+        /* justify-content: flex-end   ;
+        align-items: flex-end; */
+        align-items: center;
+        flex-direction: column;
+
+    }
+    .left-section h3 {
+
+        font-size: 20px;
+        position: absolute;
+        top: 580px;
+        margin-left: 40px;
+    }
+
+    .left-section h1 {
+
+        position: absolute;
+        text-align: center;
+        font-size: 43px;
+        top: 40rem;
+        left: 20px;
+    }
+
+    .left-section .text {
+        word-wrap: break-word;
+        font-size: 12px;
+        position: absolute;
+        top: 40rem;
+        word-wrap: break-word;
+        margin-top: 255px;
+        width: 30rem;
+    }
+
+    
+    .action-btn {
+
+        position: relative;
+        top: 50rem;
+
+    }
+
+    .sub-headlines {
+        position: absolute;
+        
+
+        font-size: 15px ;
+        top: 40rem;
+        left: 30px;
+        
+        
+    }
+
+    .sub-headline {
+
+        height: 30px;
+        margin-top: 30px;
+    }
+       
+    .left-section .action-btn {
+        display: block;
+
+       
+    }
+
+    .left-section .action-btn {
+
+
+    border-radius: 30px;
+    font-size: 12px;
+    padding: 15px 50px;
+    }
+}
+
+
+
+
+    
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+}
